@@ -1,0 +1,231 @@
+{
+  "collaborative" : false,
+  "description" : null,
+  "external_urls" : {
+    "spotify" : "http://open.spotify.com/user/sciencelord01/playlist/1matOZfpk9zIYw263oaypd"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 0
+  },
+  "href" : "https://api.spotify.com/v1/users/sciencelord01/playlists/1matOZfpk9zIYw263oaypd",
+  "id" : "1matOZfpk9zIYw263oaypd",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/419e392fb9873bbb3eff0f4feccfe177840e1317",
+    "width" : 640
+  } ],
+  "name" : "OneSong",
+  "owner" : {
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/sciencelord01"
+    },
+    "href" : "https://api.spotify.com/v1/users/sciencelord01",
+    "id" : "sciencelord01",
+    "type" : "user",
+    "uri" : "spotify:user:sciencelord01"
+  },
+  "public" : false,
+  "snapshot_id" : "BazqJiGkjEd3bRO1NVX5i3cOAJkEbSiNOs9yXHNaO+MHByqK2HKCgq5uekaiLvHy",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/users/sciencelord01/playlists/1matOZfpk9zIYw263oaypd/tracks?offset=0&limit=100",
+    "items" : [ {
+      "added_at" : "2017-11-12T05:55:49Z",
+      "added_by" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/sciencelord01"
+        },
+        "href" : "https://api.spotify.com/v1/users/sciencelord01",
+        "id" : "sciencelord01",
+        "type" : "user",
+        "uri" : "spotify:user:sciencelord01"
+      },
+      "is_local" : false,
+      "track" : {
+        "album" : {
+          "album_type" : "album",
+          "artists" : [ {
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/artist/0QHgL1lAIqAw0HtD7YldmP"
+            },
+            "href" : "https://api.spotify.com/v1/artists/0QHgL1lAIqAw0HtD7YldmP",
+            "id" : "0QHgL1lAIqAw0HtD7YldmP",
+            "name" : "DJ Khaled",
+            "type" : "artist",
+            "uri" : "spotify:artist:0QHgL1lAIqAw0HtD7YldmP"
+          } ],
+          "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN" ],
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/album/3HhZbSJdhOqMSaRbEt3gtw"
+          },
+          "href" : "https://api.spotify.com/v1/albums/3HhZbSJdhOqMSaRbEt3gtw",
+          "id" : "3HhZbSJdhOqMSaRbEt3gtw",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/419e392fb9873bbb3eff0f4feccfe177840e1317",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/f26e40fe6fd640f3106487566233e0f364b9dcb7",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/600e240d5d48d86cf564854ba0e2b393ba4b9fdd",
+            "width" : 64
+          } ],
+          "name" : "Grateful",
+          "type" : "album",
+          "uri" : "spotify:album:3HhZbSJdhOqMSaRbEt3gtw"
+        },
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/0QHgL1lAIqAw0HtD7YldmP"
+          },
+          "href" : "https://api.spotify.com/v1/artists/0QHgL1lAIqAw0HtD7YldmP",
+          "id" : "0QHgL1lAIqAw0HtD7YldmP",
+          "name" : "DJ Khaled",
+          "type" : "artist",
+          "uri" : "spotify:artist:0QHgL1lAIqAw0HtD7YldmP"
+        }, {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
+          "id" : "1uNFoZAHBGtllmzznpCI3s",
+          "name" : "Justin Bieber",
+          "type" : "artist",
+          "uri" : "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+        }, {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/0VRj0yCOv2FXJNP47XQnx5"
+          },
+          "href" : "https://api.spotify.com/v1/artists/0VRj0yCOv2FXJNP47XQnx5",
+          "id" : "0VRj0yCOv2FXJNP47XQnx5",
+          "name" : "Quavo",
+          "type" : "artist",
+          "uri" : "spotify:artist:0VRj0yCOv2FXJNP47XQnx5"
+        }, {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1anyVhU62p31KFi8MEzkbf"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1anyVhU62p31KFi8MEzkbf",
+          "id" : "1anyVhU62p31KFi8MEzkbf",
+          "name" : "Chance The Rapper",
+          "type" : "artist",
+          "uri" : "spotify:artist:1anyVhU62p31KFi8MEzkbf"
+        }, {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/55Aa2cqylxrFIXC767Z865"
+          },
+          "href" : "https://api.spotify.com/v1/artists/55Aa2cqylxrFIXC767Z865",
+          "id" : "55Aa2cqylxrFIXC767Z865",
+          "name" : "Lil Wayne",
+          "type" : "artist",
+          "uri" : "spotify:artist:55Aa2cqylxrFIXC767Z865"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN" ],
+        "disc_number" : 1,
+        "duration_ms" : 288876,
+        "explicit" : true,
+        "external_ids" : {
+          "isrc" : "USSM11703300"
+        },
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/1jYiIOC5d6soxkJP81fxq2"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/1jYiIOC5d6soxkJP81fxq2",
+        "id" : "1jYiIOC5d6soxkJP81fxq2",
+        "name" : "I'm the One",
+        "popularity" : 81,
+        "preview_url" : "https://p.scdn.co/mp3-preview/f6fdecfbaae1ed54bcfbae1bc2b088e8807c9783?cid=8897482848704f2a8f8d7c79726a70d4",
+        "track_number" : 5,
+        "type" : "track",
+        "uri" : "spotify:track:1jYiIOC5d6soxkJP81fxq2"
+      }
+    }, {
+      "added_at" : "2017-11-12T06:00:21Z",
+      "added_by" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/sciencelord01"
+        },
+        "href" : "https://api.spotify.com/v1/users/sciencelord01",
+        "id" : "sciencelord01",
+        "type" : "user",
+        "uri" : "spotify:user:sciencelord01"
+      },
+      "is_local" : false,
+      "track" : {
+        "album" : {
+          "album_type" : "single",
+          "artists" : [ {
+            "external_urls" : {
+              "spotify" : "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"
+            },
+            "href" : "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4",
+            "id" : "3TVXtAsR1Inumwj472S9r4",
+            "name" : "Drake",
+            "type" : "artist",
+            "uri" : "spotify:artist:3TVXtAsR1Inumwj472S9r4"
+          } ],
+          "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN" ],
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/album/1JZxCJ86P4GUYkHj03CgDT"
+          },
+          "href" : "https://api.spotify.com/v1/albums/1JZxCJ86P4GUYkHj03CgDT",
+          "id" : "1JZxCJ86P4GUYkHj03CgDT",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/7f8ae3fb4fb84a33585f5fc1ab22089aa7adbd6a",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/c6f600938100de863081c4482f1a9313dc0485e0",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/3be9ab6fc3a7dfb96dddaae4164bdf2cd48b1d8d",
+            "width" : 64
+          } ],
+          "name" : "Signs",
+          "type" : "album",
+          "uri" : "spotify:album:1JZxCJ86P4GUYkHj03CgDT"
+        },
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4",
+          "id" : "3TVXtAsR1Inumwj472S9r4",
+          "name" : "Drake",
+          "type" : "artist",
+          "uri" : "spotify:artist:3TVXtAsR1Inumwj472S9r4"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN" ],
+        "disc_number" : 1,
+        "duration_ms" : 234373,
+        "explicit" : false,
+        "external_ids" : {
+          "isrc" : "USCM51700269"
+        },
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/6Na5uKk5SsqZimk0hAWo8y"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/6Na5uKk5SsqZimk0hAWo8y",
+        "id" : "6Na5uKk5SsqZimk0hAWo8y",
+        "name" : "Signs",
+        "popularity" : 79,
+        "preview_url" : null,
+        "track_number" : 1,
+        "type" : "track",
+        "uri" : "spotify:track:6Na5uKk5SsqZimk0hAWo8y"
+      }
+    } ],
+    "limit" : 100,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 2
+  },
+  "type" : "playlist",
+  "uri" : "spotify:user:sciencelord01:playlist:1matOZfpk9zIYw263oaypd"
+}
