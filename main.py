@@ -8,6 +8,10 @@ import youtube_dl
 import sys
 import shutil
 import stat 
+import timeit
+
+from threading import Thread
+from time import sleep
 from pprint import pprint
 from collections import namedtuple
 
@@ -20,7 +24,12 @@ from collections import namedtuple
 #save in folder - plalylist name - yup
 
 #url = input('Enter URL: ')
-url = 'https://open.spotify.com/user/sciencelord01/playlist/1matOZfpk9zIYw263oaypd'
+#NUM_THREADS = input('Enter number of threads: (10-20 is good))) actually find possible value yourself
+
+start = timeit.default_timer()
+
+
+url = 'https://open.spotify.com/user/sciencelord01/playlist/2SdH4KGzHPmqLAbqUA9GqB'
 
 val = url.find('user')
 if val < 0:
@@ -78,6 +87,8 @@ else:
         print("Done.")
         sys.exit()        
 
+video_ids = []
+
 for q in search_keywords:
     q += 'topic'
     url = 'https://www.googleapis.com/youtube/v3/search?part=snippet&q=' + q + '&maxResults=1&key=' + youtubeAPIkey
@@ -87,11 +98,40 @@ for q in search_keywords:
     resp = urllib.request.urlopen(req)
     respData = resp.read()  
     nextPageToken = re.findall('"nextPageToken": "(.*?)"', str(respData))
+    individual_video_id = re.findall('"videoId": "(.*?)"', str(respData))
+    
+    video_ids.append(individual_video_id)
 
-    video_id = re.findall('"videoId": "(.*?)"', str(respData))
+NUM_THREADS = 10
+NUM_THREADS = len(video_ids) if len(video_ids) < NUM_THREADS else NUM_THREADS
 
-    for i in video_id:
-        os.system('youtube-dl --extract-audio --audio-format "mp3" --output "' + folder_name + '/%(title)s.%(ext)s" "https://www.youtube.com/watch?v="' + i)
-        
+thread_ids = []
+threads = []
+
+for i in range(0, NUM_THREADS):
+    thread_ids.append([])
+
+for i in range(0, len(video_ids)):
+    thread_ids[i%NUM_THREADS].append(video_ids[i])
+
+def downloadThreadFunc(folderName, listVids):    
+    for i in listVids:
+        os.system('youtube-dl --extract-audio --audio-format "mp3" --output "' + folderName + '/%(title)s.%(ext)s" "https://www.youtube.com/watch?v="' + str(i)[2:][:-2] + "")
+    sleep(1)
+
+for i in range(0, NUM_THREADS):
+    # pprint(str(i) + ": " + str(thread_ids[i]))
+    thread = Thread(target = downloadThreadFunc, args = (folder_name, thread_ids[i]))
+    thread.start()
+    threads.append(thread)
+
+for t in threads:
+    t.join()
+
 #os.remove('*.webm')
 os.remove('tmpPlaylist.json')
+print("Done.")
+
+stop = timeit.default_timer()
+
+print (str(NUM_THREADS) + " threads take (secs): " + str(stop - start ))
